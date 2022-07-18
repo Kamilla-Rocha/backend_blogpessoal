@@ -1,4 +1,4 @@
-package com.generation.blogpessoal.configuration;
+package com.blogpessoal.configuration;
 
 import org.springdoc.core.customizers.OpenApiCustomiser;
 import org.springframework.context.annotation.Bean;
