@@ -17,7 +17,7 @@ public class Usuario {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long id;
+	private Long id;
 	
 	@NotNull
 	@Size(min = 2 , max = 100)
@@ -47,8 +47,6 @@ public class Usuario {
 	// Segundo método Construtor
 	
 	public Usuario() {	}
-	
-	
 	
 
 	public long getId() {
